@@ -7,10 +7,10 @@ public class PokeCard {
     public PokeCard() {
     }
 
-    public PokeCard(String id, String name, String imageURL, String artist) {
+    public PokeCard(String id, String name, String imageUrl, String artist) {
         this.id = id;
         this.name = name;
-        this.imageURL = imageURL;
+        this.imageURL = imageUrl;
         this.artist = artist;
     }
 
@@ -30,12 +30,12 @@ public class PokeCard {
         this.name = name;
     }
 
-    public String getImageURL() {
-        return imageURL;
-    }
-
     public void setImageURL(String imageURL) {
         this.imageURL = imageURL;
+    }
+
+    public String getImageUrl() {
+        return imageURL;
     }
 
     public String getArtist() {
